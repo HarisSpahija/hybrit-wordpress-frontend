@@ -72,7 +72,7 @@ export default class App extends React.Component {
                                 />
                             );
                         })}
-                        
+
                         {/* Default Route */}
                         <Route
                             exact
@@ -82,7 +82,7 @@ export default class App extends React.Component {
                             )}
                         />
 
-                        {/* No Match Catch */}
+                        {/* No Match Route */}
                         <Route render={() => <Redirect to="/" />} />
 
                     </Switch>
