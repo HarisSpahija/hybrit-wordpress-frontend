@@ -5,7 +5,6 @@ import {
     Link,
     Route,
     Switch,
-    Redirect
 } from "react-router-dom";
 import ExamplePage from "./components/ExamplePage";
 import HomePage from "./components/HomePage";
@@ -54,7 +53,7 @@ export default class App extends React.Component {
                     <div class="topnav">
                         <Link to={"/"}>Home</Link>
                         {pages.map((page, index) => {
-                            return <Link to={page.slug}>{page.title.rendered}</Link>;
+                            return <Link to={page.slug}>{page.slug}</Link>;
                         })}
                     </div>
 
@@ -81,10 +80,6 @@ export default class App extends React.Component {
                                 <HomePage {...props} posts={posts} />
                             )}
                         />
-
-                        {/* No Match Route */}
-                        <Route render={() => <Redirect to="/" />} />
-
                     </Switch>
                 </Fragment>
             </Router>
