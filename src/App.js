@@ -54,7 +54,7 @@ export default class App extends React.Component {
                     <div class="topnav">
                         <Link to={"/"}>Home</Link>
                         {pages.map((page, index) => {
-                            return <Link to={page.slug}>{page.slug}</Link>;
+                            return <Link to={page.slug}>{page.title.rendered}</Link>;
                         })}
                     </div>
 
