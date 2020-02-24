@@ -1,0 +1,8 @@
+authtoken: yourAuthToken
+tunnels:
+    react:
+      addr: 3000
+      proto: http    
+    wordpress:
+      addr: 8000
+      proto: http
