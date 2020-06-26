@@ -1,3 +1,12 @@
+# Blog
+This project is part of a 2 series blogpost that I wrote on [HybrIT.org](https://hybrit.org/blog).
+Part 1: [Blog](https://hybrit.org/blog/combine-headless-wordpress-with-a-react-spa-part-1)
+Part 2: [Blog](https://hybrit.org/blog/combine-headless-wordpress-with-a-react-spa-part-2)
+
+If you are in need of any assistance feel free to create an issue. 
+If you are interested in using our skills in your project. Ask our sales team about our consultancy options [here](https://hybrit.org/contact)!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
